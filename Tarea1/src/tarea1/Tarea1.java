@@ -1,21 +1,43 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package tarea1;
+package errores1Blog;
+import java.io.BufferedReader;
+import java.io.IOException;
 
 /**
- *
- * @author josema
- */
-public class Tarea1 {
+*
+* @author Gaby Nieva
+*/
+public class Errores1Blog {
+/**
+* @param args the command line arguments
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+String nombre;
+public static void main(String[] args) {
+// Declaración de variables
+Double x, y,z;
+float a, b, c;
+
+BufredReader bufer = new BufferedReader(new ImputStreamReader());
+String entrada;
+System.out.println(&quot;Escribe el valor de x: &quot;);
+entrada = bufer.readLine();
+x= Integer.parseInt(entrada);
+System.out.println(&quot;Escribe el valor de y: &quot;);
+entrada = bufer.readLine();
+y = Double.parseDouble(entrada);
+z = y / x;
+System.out.println(&quot;El residuo de dividir y ( + y + &quot;) entre x ( &quot; +x + ) es: &quot; + z);
+System.out.println(&quot;Escribe el valor de a: &quot;);
+entrada = b.readLine();
+a = entrada;
+System.out.println(&quot;Escribe el valor de b: &quot;);
+in = bufer.readLine();
+b = Float.parseFloat(entrada);
+c = a * b ;
+System.out.println(&quot;El resultado de multiplicar a por b es: &quot; + c);
+
+}
+System.out.println(&quot;Escribe una letra: &quot;);
+entrada = bufer.readLine();
+nombre = Entrada.ChartAt(12);
+System.out.println(&quot;El nombre que escribiste es: &quot; + Nombre);
 }
